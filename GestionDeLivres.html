@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gestion des livres</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/styleGDL.css">
+		<link rel="stylesheet" type="text/css" href="./css/styleCoverf.css">
+		<link rel="stylesheet" type="text/css" href="./grille/grille.css">
+		<link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script></head>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	
+
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://editions.flammarion.com/Auteurs/coelho-paulo">Page officielle</a>
+				</div>
+  	    		<ul class="nav navbar-nav">
+  	    			<li class="nav-item" title="Blog"><a class="nav-link" href="https://paulocoelhoblog.com/"><i class="fas fa-blog fa-2x"></i></a></li><br>	
+  	    			<li class="nav-item" title="Instagam"><a class="nav-link" href="https://www.instagram.com/paulocoelho/?hl=fr-ca"><i class="fab fa-instagram fa-2x"></i></i></a></li><br>	
+  	    			<li class="nav-item" title="Facebook"><a class="nav-link" href="https://fr-ca.facebook.com/paulocoelho"><i class="fab fa-facebook fa-2x"></i></a></li>
+  	    		</ul>
+	   		 	<ul class="nav navbar-nav navbar-right">
+   		 			<form class="form-inline " action="#">
+	  					<input class="form-control mr-sm-" type="text" placeholder="Search">
+	   					<button class="btn btn-success" type="submit">Search</button>
+  					</form>
+   		 		</ul>
+   		 	</div>
+  		</nav><br>
+	
+		<div class="jumbotron">
+			<ul id="menu">
+			  <li> <a href="#">Item 1</a> </li>
+			  <li> <a href="#">Item 2</a> </li>
+			  <li> <a href="#">Item 3</a> </li>
+			  <li class="highlighted"> <a href="#">Item 4</a> </li>
+			  <li> <a href="#">Item 5</a> </li>
+			  <li> <a href="#">Item 6</a> </li>
+			  <li> <a href="#">Item 7</a> </li>
+			</ul><br><br>
+			<a href="#aModal"><button type="button" class="btn btn-info">Ajouter un livre</button></a>
+		</div>
+		<div class="container col-lg-10 col-xl-10">
+			<div class="row" id="div1">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/maktub.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">Maktub</p>
+					<label><b>ISBN:</b></label><p class="p2">9782290035733</p>
+					<label><b>Edité le:</b></label><p class="p3">1 mai 2004</p>
+					<label><b>Description:</b></label><p class="p4">Joli recueil d’histoires courtes qui poussent à la réflexion. Ces paraboles inspirées par divers folklores 
+																mêlent philosophie et sagesse, comme souvent chez l’auteur. Maktub est un véritable trésor de sagesse</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+				
+			</div>
+			<div class="row" id="div2">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/onzeMinutes.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">Onze minutes</p>
+					<label><b>ISBN:</b></label><p class="p2">2290022683</p>
+					<label><b>Edité le:</b></label><p class="p3">6 octobre 2010</p>
+					<label><b>Description:</b></label><p class="p4">La jeune Maria, comme toutes les jeunes filles, n'aspire qu'à l'aventure, au grand amour, et rêve de vivre un conte de fées...
+																Mais la réalité est souvent autre. Attirée en Suisse par un homme qui lui promet monts et merveilles, le retour à la réalité est terrible. Maria en vient à se prostituer,
+																apprenant à bien séparer l'esprit de la chair et s'interdisant de tomber amoureuse. Mais le sexe, comme l'amour, reste pour elle une énigme.
+																</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+
+			</div>
+			<div class="row" id="div3">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/zahir.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">Le Zahir</p>
+					<label><b>ISBN:</b></label><p class="p2">2290353132</p>
+					<label><b>Edité le:</b></label><p class="p3">1 mai 2004</p>
+					<label><b>Description:</b></label><p class="p4">Dans ce roman, l'auteur raconte l'histoire de sa femme disparue du jour au lendemain sans donner signes de vie. 
+																Paulo se trouve alors perdu dans ses rêveries et dans une dépression mélancolique. Alors obnubilé par ce qu'il appelle 
+																son « zahir » il va, au fur et à mesure de ses rencontres, apprendre à changer son regard sur la vie. Cela l'emmènera
+																au Kazakhstan, retrouver celle qui, pour la deuxième fois, lui a fait « oublier ce qu'il était pour devenir ce qu'il est ».</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+			</div>
+			<div class="row" id="div4">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/aleph.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">Aleph</p>
+					<label><b>ISBN:</b></label><p class="p2">229004220X</p>
+					<label><b>Edité le:</b></label><p class="p3"> 21 septembre 2012</p>
+					<label><b>Description:</b></label><p class="p4">Décider. Changer. Se réinventer. Agir. Expérimenter. Réussir. Oser. Rêver. Gagner. Découvrir. Eloigner. S'engager. Penser. Croire. Grandir.
+																Appartenir. S'éveiller. Nous avons parfois besoin de redonner un sens à notre vie, de lui rendre souffle et équilibre. Et si un livre en avait le pouvoir ? Et si,
+																grâce à la magie des mots et d'une histoire, vous commenciez un nouveau chapitre de votre vie ? Aleph est ce livre. Aleph est un voyage qui pourrait bien changer votre existence.</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+
+			</div>
+			<div class="row" id="div5">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/lalchimiste.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">L'Alchimiste</p>
+					<label><b>ISBN:</b></label><p class="p2">2290004448</p>
+					<label><b>Edité le:</b></label><p class="p3">1 mars 2007</p>
+					<label><b>Description:</b></label><p class="p4">Santiago, un jeune berger andalou, part à la recherche d'un trésor enfoui au pied des Pyramides.
+																Lorsqu'il rencontre l'Alchimiste dans le désert, celui-ci lui apprend à écouter son coeur, à lire
+																les signes du destin et, par-dessus tout, à aller au bout de son rêve. Merveilleux conte philosophique
+																destiné à l'enfant qui sommeille en chaque être, ce livre a déjà marqué une génération de lecteurs."Un auteur exceptionnel." USA today</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+
+			</div>
+				<div class="row" id="div5">
+				<div class="divdimage col-12 col-sm-6 col-lg-2 col-xl-2"><img src="./images/lespionne.jpg"></div>
+				<div class="divtext col-12 col-sm-6 col-lg-8 col-xl-8">
+					<label><b>Titre:</b></label><p class="p1">L'espionne</p>
+					<label><b>ISBN:</b></label><p class="p2">2290143685</p>
+					<label><b>Edité le:</b></label><p class="p3">8 novembre 2017</p>
+					<label><b>Description:</b></label><p class="p4">Arrivée à Paris sans un sou en poche, Mata Hari s'impose rapidement comme une danseuse vedette du début du XXe siècle. 
+																Insaisissable et indépendante, elle séduit le public, ensorcelle les hommes les plus riches et les plus puissants de l'époque. 
+																Mais son mode de vie flamboyant fait scandale et attire bientôt les soupçons tandis que la paranoïa s'empare du pays en guerre.
+																Arrêtée en 1917 dans sa chambre d'hôtel sur les Champs-Elysées, elle est accusée d'espionnage.</p>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-1 col-xl-1"><a href="#oModal"><button type="button" class="btn btn-warning">Editer</button></a></div>
+
+			</div>
+			<!--Modal d'édition-->
+			<div id="oModal" class="oModal">
+				<div>
+				    <header>
+				     	 <a href="#fermer" title="Fermer la fenêtre" class="droite">X</a>
+				     	 <h2>Edition du livre</h2>
+				    </header>
+				    <section>
+				     	 <label for="titreLivre" >Titre</label><input type="text" name="titreLivre" id="titLiv"><br><br>
+				     	 <label for="isbn">ISBN</label> <input type="text" name="isbn" id="isbn"><br><br>
+				     	<label for="dateEdition">Date d'édition</label><input type="date" name="dateEdition" id="anEdition"><br><br>
+				     	<label for="description">Description</label> <textarea name="description" id="desc"></textarea><br>
+						<label for="image">Image</label>
+						<form action="/action_page.php">
+							<input type="file" name="pic" accept="image/*">
+						</form>
+				    </section>
+				    <footer class="cf">
+				     	 <a href="#fermer" class="btn droite" title="Enregistrer modifications">
+							<button class="btn btn-success" id="enreg" >Enregistrer</button>
+						</a>
+				     	<a href="#fermer" class="btn droite" title="Annuler et Fermer la fenêtre"><button class="btn btn-danger">Annuler</button> </a>
+				    </footer>
+				 </div>
+			</div>
+				<!--Modal d'ajout-->
+			<div id="aModal" class="aModal">
+				<div>
+				    <header>
+				     	 <a href="#ferme" title="Fermer la fenêtre" class="droite">X</a>
+				     	 <h2>Ajouter un livre</h2>
+				    </header>
+				    <section>
+				     	 <label for="AtitreLivre" >Titre</label><input type="text" name="AtitreLivre" id="AtitLiv"><br><br>
+				     	 <label for="Aisbn">ISBN</label> <input type="text" name="Aisbn" id="Aisbn"><br><br>
+				     	<label for="AdateEdition">Date d'édition</label><input type="date" name="AdateEdition" id="AanEdition"><br><br>
+				     	<label for="Adescription">Description</label> <textarea name="Adescription" id="Adesc"></textarea><br>
+						<label for="Aimage">Image</label>
+						<form action="/action_page.php">
+							<input type="file" name="pic" accept="images/*">
+						</form>
+				    </section>
+				    <footer class="cf">
+				     	 <a href="#ferme" class="btn droite" title="Enregistrer ajout">
+							<button class="btn btn-success" id="ajoute">Enregistrer</button>
+						</a>
+				     	<a href="#ferme" class="btn droite" title="Annuler et Fermer la fenêtre"><button class="btn btn-danger">Annuler</button> </a>
+				    </footer>
+				 </div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Travail pratique 1 (Partie 1)par : Nafissa Iro Ousmane & Fatine El Moustaine </p>
+			<p>Cours : Interfaces Personne-Machine - Abdelmoumène Toudeft - Cegep Bois de Boulogne 2019</p>
+		</div>
+		<script src="./script/livres.js"></script>
+	</body>
+</html>
